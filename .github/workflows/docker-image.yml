@@ -31,7 +31,7 @@ jobs:
         context: ./
         file: ./dockerfile
         push: true
-        tags: nemcrunchers/shadow:$(date +%s)
+        tags: nemcrunchers/shadow:latest
 
     - name: Image digest
       run: echo ${{ steps.docker_build.outputs.digest }}
