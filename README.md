@@ -1,4 +1,4 @@
-# shadow-docker
+# Shadow Docker Image
 Docker image for shadow (https://github.com/shadow/shadow). Reason for making my own docker image was that the old one is really old (fedora 22) and the dockerfile used isnt public.
 
 # Build
